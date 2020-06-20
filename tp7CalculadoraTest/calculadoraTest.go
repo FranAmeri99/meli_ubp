@@ -2,7 +2,7 @@ package tp7_calculadora_test
 
 import (
 	"fmt"
-	"github.com/FranAmeri99/meli_ubp/tp7_calculadora_test/operaciones"
+	"github.com/FranAmeri99/meli_ubp/tp7CalculadoraTest/operaciones"
 
 )
 

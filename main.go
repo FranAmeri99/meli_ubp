@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/FranAmeri99/meli_ubp/tp3hello_word"
+	"github.com/FranAmeri99/meli_ubp/tp3hello"
 	"github.com/FranAmeri99/meli_ubp/tp4Calculdora"
 	"github.com/FranAmeri99/meli_ubp/tp5ConsumoApis"
 	"github.com/FranAmeri99/meli_ubp/tp6CalculadoraV2"
@@ -22,24 +22,24 @@ func main(){
 	fmt.Scan(&switchN)
 	switch switchN {
 	case 3:
-		tp3_hello_word.HelloWord()
+		tp3hello.HelloWord()
 		break
 	case 4:
-		tp4_calculdora.Calculadora()
+		tp4Calculdora.ldora.Calculadora()
 		break
 	case 5:
-		tp5_consumo_apis.ConsumoApi()
+		tp5ConsumoApis.ConsumoApi()
 		break
 	case 6:
-		tp6_calculadora_hilos.CalculadoraHilos()
-		var input string
-		fmt.Scan(&input)
+		tp6CalculadoraV2.CalculadoraHilos()
+		var entrada string
+		fmt.Scan(&entrada)
 		break
 	case 7:
-		tp7_calculadora_test.CalculadoraTest()
+		tp7CalculadoraTest.CalculadoraTest()
 		break
 	case 8:
-		tp_8_calculadoraApi.CalculadoraApi()
+		tp8CalculadoraV3.CalculadoraApi()
 		break
 	}
 }
