@@ -13,12 +13,12 @@ import (
 func main(){
 	var switchN int64
 	fmt.Printf("Ingrese el numero para correr el tp correspondiente:\n")
-	fmt.Printf("3->Introduccion a Go\n")
-	fmt.Printf("4->Variables y estructuras en Go\n")
-	fmt.Printf("5->Consumo de APIs en Go\n")
-	fmt.Printf("6->Concurrencia y Paralelirmos en Go\n")
+	fmt.Printf("3->Intro\n")
+	fmt.Printf("4->Variables y estructuras\n")
+	fmt.Printf("5->Consumo de APIs\n")
+	fmt.Printf("6->Concurrencia y Paralelirmos\n")
 	fmt.Printf("7->Testing\n")
-	fmt.Printf("8->Creacion de una \n")
+	fmt.Printf("8->Creacion de una API\n")
 	fmt.Scan(&switchN)
 	switch switchN {
 	case 3:
